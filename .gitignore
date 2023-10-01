@@ -1,0 +1,20 @@
+learning/
+lib/
+
+
+
+# Anotaciones
+# Reglas para no trackear carpetas y archivos
+
+# lib/
+# Ignora todas las carpetas con ese nombre,
+# ! incluso dentro de otras carpetas: a/lib
+
+# An asterisk "*" matches anything except a slash. The character "?" matches any one character except "/".
+# The range notation, e.g. [a-zA-Z], can be used to match one of the characters in a range.
+# See fnmatch(3) and the FNM_PATHNAME flag for a more detailed description.
+
+# **
+# **/foo
+
+# Read the docs: https://git-scm.com/docs/gitignore
