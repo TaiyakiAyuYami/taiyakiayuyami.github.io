@@ -153,3 +153,20 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
+
+/* Custom */
+.bubblegum {
+  font-family: 'BubbleGum', sans-serif;
+}
+
+/* Video: https://www.youtube.com/watch?v=dK-8SrnklOI */
+.banner {
+  min-height: 77%;
+  color: #555;
+}
+.banner img {
+  width: 60%;
+}
+.info {
+  margin: 10% auto;
+}
