@@ -158,15 +158,12 @@
 .bubblegum {
   font-family: 'BubbleGum', sans-serif;
 }
-
-/* Video: https://www.youtube.com/watch?v=dK-8SrnklOI */
-.banner {
-  min-height: 80%;
-  color: #555;
+.title {
+  color: #3f3e53;
+  font-size: 2rem;
 }
-.banner img {
-  width: 250px;
-}
-.info {
-  margin: 10% auto;
+.logo-header {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
 }
