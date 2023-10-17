@@ -182,14 +182,36 @@ html {
   transform: scale(1, -1);
 }
 .title {
-  /* color: #3f3e53; */
   color: #ffffff;
-  /* text-shadow: -2px -2px 2px black; */
   font-size: 1.5rem;
 }
+.min-height-screen {
+  min-height: 65vh;
+}
+
+/* Visualizador de comics */
+.comic-background {
+  background-color: #cbe0f8;
+}
+.img-comic  {
+  width: 98%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+.center-screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
 @media screen and (min-width: 992px) {
   .title {
     font-size: 3rem;
+  }
+  .img-comic {
+    width: 80%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -201,24 +223,4 @@ html {
   .title {
     font-size: 2rem;
   }
-}
-.contenedor {
-  min-height: 65vh;
-}
-
-/* Visualizador de comics */
-.comic-background {
-  background-color: #cbe0f8;
-}
-.img-comic  {
-  width: 90%;
-  height: auto;
-  padding-bottom: 1.5rem;
-}
-.center-screen {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
 }
