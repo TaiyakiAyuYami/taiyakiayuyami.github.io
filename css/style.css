@@ -165,6 +165,15 @@ html {
 }
 
 /* Custom */
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', serif;
+}
+h1 {
+  font-weight: 600;
+}
+h2 {
+  font-weight: 500;
+}
 .bubblegum {
   font-family: 'BubbleGum', sans-serif;
 }
@@ -184,6 +193,10 @@ html {
 .title {
   color: #ffffff;
   font-size: 1.5rem;
+}
+.title-big {
+  color: #ffffff;
+  font-size: 3rem;
 }
 .min-height-screen {
   min-height: 65vh;
@@ -213,6 +226,10 @@ html {
   .img-comic {
     width: 80%;
   }
+  iframe {
+    width: 700px;
+    height: 394px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .title {
@@ -222,5 +239,17 @@ html {
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .title {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  iframe {
+    width: 420px;
+    height: 236px;
+  }
+}
+@media screen and (max-width: 575px) {
+  iframe {
+    width: 336px;
+    height: 189px;
   }
 }
