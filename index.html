@@ -16,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+  <!-- Logos de redes sociales usadas en footer -->
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="facebook" viewBox="0 0 16 16">
       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -34,8 +36,7 @@
     </symbol>
   </svg>
 
-<main>
-
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/"><img src="/assets/icon-ayu-yami.png" alt="" width="30" height="auto">  Taiyaki Ayu-Yami</a>
@@ -61,6 +62,7 @@
     </div>
   </nav>
 
+  <!-- Banner -->
   <div class="container rounded-bottom d-flex justify-content-evenly align-items-center py-3" style="background-color: #3c7ee297;">
     <img class="logo-header" src="/assets/logo.png" alt="">
     <div class="text-center">
@@ -68,49 +70,49 @@
       <div class="bubblegum title">Taiyaki Ayu-Yami!</div>
     </div>
   </div>
+</header>
 
-  <div class="album py-5 bg-body-tertiary">
-    <div class="container min-height-screen">
+<main>
+  <!-- Contenido principal -->
+  <div class="container py-5 min-height-screen">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-        <div class="col d-flex align-items-stretch">
-          <div class="card shadow-sm">
-            <a href="/comics/"><img src="/assets/thumbnail-comics.jpeg" class="card-img-top" alt="thumbnail-historietas"></a>
-            <div class="card-body">
-              <h5 class="card-title">Historietas</h5>
-              <p class="card-text">¡Aventúrate con nosotras, listas para la diversión! Capítulos nuevos próximamente :3</p>
-              <a href="/comics/" class="btn btn-primary float-end">Ver historietas</a>
-            </div>
+      <!-- Cards con enlaces a otras secciones de la página -->
+      <div class="col d-flex align-items-stretch">
+        <div class="card shadow-sm">
+          <a href="/comics/"><img src="/assets/thumbnail-comics.jpeg" class="card-img-top" alt="thumbnail-historietas"></a>
+          <div class="card-body">
+            <h5 class="card-title">Historietas</h5>
+            <p class="card-text">¡Aventúrate con nosotras, listas para la diversión! Capítulos nuevos próximamente :3</p>
+            <a href="/comics/" class="btn btn-primary float-end">Ver historietas</a>
           </div>
         </div>
-
-        <div class="col d-flex align-items-stretch">
-          <div class="card shadow-sm">
-            <a href="/assets/Menu Taiyaki Ayu-Yami.pdf" target="_blank" rel="noopener noreferrer"><img src="/assets/thumbnail-menu.jpeg" class="card-img-top" alt="thumbnail-menu"></a>
-            <div class="card-body">
-              <h5 class="card-title">Menú</h5>
-              <p class="card-text">Revisa todo nuestro menú aquí &#129505;</p>
-              <a href="/assets/Menu Taiyaki Ayu-Yami.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary float-end">Ver menú</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col d-flex align-items-stretch">
-          <div class="card shadow-sm">
-            <a href="#"><img src="/assets/thumbnail-about.jpg" class="card-img-top" alt="thumbnail-historietas"></a>
-            <div class="card-body">
-              <h5 class="card-title">Nosotros</h5>
-              <p class="card-text">¡Descubre más sobre nosotros aquí!</p>
-              <a href="/#" class="btn btn-primary float-end">Leer</a>
-            </div>
-          </div>
-        </div> -->
-
       </div>
+
+      <div class="col d-flex align-items-stretch">
+        <div class="card shadow-sm">
+          <a href="/assets/Menu Taiyaki Ayu-Yami.pdf" target="_blank" rel="noopener noreferrer"><img src="/assets/thumbnail-menu.jpeg" class="card-img-top" alt="thumbnail-menu"></a>
+          <div class="card-body">
+            <h5 class="card-title">Menú</h5>
+            <p class="card-text">Revisa todo nuestro menú aquí &#129505;</p>
+            <a href="/assets/Menu Taiyaki Ayu-Yami.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary float-end">Ver menú</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col d-flex align-items-stretch">
+        <div class="card shadow-sm">
+          <a href="#"><img src="/assets/thumbnail-about.jpg" class="card-img-top" alt="thumbnail-historietas"></a>
+          <div class="card-body">
+            <h5 class="card-title">Nosotros</h5>
+            <p class="card-text">¡Descubre más sobre nosotros aquí!</p>
+            <a href="#" class="btn btn-primary float-end">Leer</a>
+          </div>
+        </div>
+      </div> -->
+
     </div>
   </div>
-
 </main>
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-3 my-4 border-top">
