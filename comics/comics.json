@@ -1,0 +1,49 @@
+{
+  "cortos":
+  {
+    "id": 1,
+    "title": "Historias cortas",
+    "description": "",
+    "format": "jpg",
+    "pages": 7,
+    "bg_color": "",
+    "card_color": "#b4b5b4",
+    "date": "16/10/2023"
+  },
+
+  "c_000":
+  {
+    "id": 2,
+    "title": "Capítulo piloto",
+    "description": "",
+    "format": "jpg",
+    "pages": 7,
+    "bg_color": "",
+    "card_color": "#c7ddf5",
+    "date": "16/10/2023"
+  },
+
+  "c_001":
+  {
+    "id": 3,
+    "title": "Un día con Yami",
+    "description": "",
+    "format": "jpg",
+    "pages": 10,
+    "bg_color": "",
+    "card_color": "#ebbae7",
+    "date": "16/10/2023"
+  },
+
+  "c_002":
+  {
+    "id": 4,
+    "title": "Un día con Ayu",
+    "description": "",
+    "format": "jpg",
+    "pages": 8,
+    "bg_color": "",
+    "card_color": "#96d0e4",
+    "date": "16/10/2023"
+  }
+}
