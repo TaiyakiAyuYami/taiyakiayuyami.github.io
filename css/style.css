@@ -52,6 +52,7 @@ h2 {
   /* background-color: #cbe0f8; */
   background-repeat: repeat;
   background-size: auto;
+  background-position: center;
 }
 .comic-background {
   /* Si se automatiza le vista de comics ya no se usara */
