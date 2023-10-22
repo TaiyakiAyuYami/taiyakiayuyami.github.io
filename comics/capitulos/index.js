@@ -32,7 +32,7 @@ function readComicInfo(obj) {
 function createImageElements(comicInfo) {
   let imgList = '';
   for (i = 0; i <= comicInfo.pages; i++ ) {
-    imgList += `<img class="img-comic" src="./${comicId}/${i}.jpg">`;
+    imgList += `<img class="img-comic" src="./${comicId}/${i}.${comicInfo.format}">`;
   }
   return imgList;
 }
