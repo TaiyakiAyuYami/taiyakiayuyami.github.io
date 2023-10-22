@@ -38,7 +38,7 @@ class Header extends HTMLElement {
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="/assets/icon-ayu-yami.webp" alt="" width="30" height="auto">  Taiyaki Ayu-Yami</a>
+            <a class="navbar-brand" href="/"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto">  Taiyaki Ayu-Yami</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,7 +63,7 @@ class Header extends HTMLElement {
       
         <!-- Banner -->
         <div class="container rounded-bottom d-flex justify-content-evenly align-items-center py-3" style="background-color: ${bgColor};">
-          <img class="logo-header" src="/assets/logo.webp" alt="">
+          <img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo">
           <div class="text-center">
             <div class="bubblegum title"><span class="d-inline-block flip-y">${flipChar}</span>${text1}</div>
             <div class="bubblegum title">${text2}</div>
