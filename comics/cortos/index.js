@@ -8,7 +8,7 @@ function readComicInfo(obj) {
 
 function createImagesTags(comicInfo) {
   let imgList = '';
-  for (i = 0; i < comicInfo.pages; i++ ) {
+  for (i = 0; i <= comicInfo.pages; i++ ) {
     imgList += `<img class="img-comic" src="./comic/${i}.jpg">`;
   }
   return imgList;
