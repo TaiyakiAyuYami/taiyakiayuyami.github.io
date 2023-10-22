@@ -6,7 +6,6 @@ fetch('../comics.json')
   .then(data => {
     const comicList = readComics(data);
     const comicInfo = comicList[comicId];
-    console.log(comicInfo);
     if (!comicInfo) console.log('No se encontró historieta :(');
     else {
       const imgList = createImageElements(comicInfo)
