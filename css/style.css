@@ -47,7 +47,14 @@ h2 {
 }
 
 /* Visualizador de comics */
+.ayu-yami-background {
+  background-image: url("/assets/background.webp");
+  /* background-color: #cbe0f8; */
+  background-repeat: repeat;
+  background-size: auto;
+}
 .comic-background {
+  /* Si se automatiza le vista de comics ya no se usara */
   background-color: #cbe0f8;
 }
 .img-comic  {
