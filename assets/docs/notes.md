@@ -23,6 +23,19 @@ Ayu: verde menta y azul cobalto
 
 El azul cielo es cuando es el neutral de ambas.
 
+Cambiar colores de íconos SVG (.svg-white):
+
+- <https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element>
+
+- <https://codepen.io/sosuke/pen/Pjoqqp>
+
+```css
+/* Footer */
+.svg-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(142deg) brightness(105%) contrast(101%)
+}
+```
+
 ## Utils
 
 Para obtener la fecha y convertirla a formato legible.

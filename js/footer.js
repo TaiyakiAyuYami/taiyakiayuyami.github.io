@@ -5,12 +5,12 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-3 my-4 border-top">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center px-2 py-3 mt-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto">
           </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">2023 Taiyaki Ayu-Yami</span>
+          <span class="mb-3 mb-md-0 text-body-secondary fs-6">2023 Taiyaki Ayu-Yami</span>
         </div>
       
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
