@@ -16,12 +16,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
   <script src="/js/header.js" defer></script>
+  <script src="/js/banner.js" defer></script>
   <script src="/js/footer.js" defer></script>
   <script src="index.js" defer></script>
 </head>
 <body>
 
-<header-component data-bg-color="#dd8df0" data-flip-char="" data-text1="Ayu-Yami Adventures" data-text2=""></header-component>
+<header-component></header-component>
+<banner-component
+  data-bg-color="#dd8df0"
+  data-flip-char=""
+  data-text1="Ayu-Yami Adventures"
+  data-text2="">
+</banner-component>
 
 <main>
   <!-- Contenido -->
@@ -30,11 +37,11 @@
       
       <!-- Insertar cards por script desde archivo JSON -->
 
-      <!-- <div class="col d-flex align-items-stretch">
-        <div class="card shadow-sm" style="background-color: #c81bb448;">
-          <a href="./c_001/"><img src="./c_001/comic/0.jpg" class="card-img-top" alt="thumbnail-menu"></a>
+      <!-- <div class="col d-flex align-items-stretch" >
+        <div class="card shadow-sm" style="background-color: ${data.card_color};">
+          <a href="./capitulos/?id=${code}"><img src="./capitulos/${code}/0.${data.format}" class="card-img-top" alt="${data.title}"></a>
           <div class="card-body">
-            <a href="./c_001/" class="btn btn-primary float-end">Leer</a>
+            <a href="/.capitulos/?id=${code}" class="btn btn-primary float-end">Leer</a>
           </div>
         </div>
       </div> -->
