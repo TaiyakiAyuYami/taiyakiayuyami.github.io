@@ -28,7 +28,7 @@ function createCard(code, data) {
       <div class="card shadow-sm" style="background-color: ${data.card_color};">
         <a href="./capitulos/?id=${code}"><img src="./capitulos/${code}/0.${data.format}" class="card-img-top" alt="${data.title}"></a>
         <div class="card-body">
-          <a href="/.capitulos/?id=${code}" class="btn btn-primary float-end">Leer</a>
+          <a href="./capitulos/?id=${code}" class="btn btn-primary float-end">Leer</a>
         </div>
       </div>
     </div>
