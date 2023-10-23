@@ -73,17 +73,27 @@ h2 {
   align-items: center;
   min-height: 100vh;
 }
+
 /* About */
 .justify {
   text-align: justify;
 }
+/* .indent {
+  text-indent: 2rem;
+} */
 .responsive-img-center {
-  width: 60%;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 8%;
+  border-radius: 5%;
+}
+.center-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 992px) {
@@ -98,7 +108,7 @@ h2 {
     height: 394px;
   }
   .responsive-img-center {
-    width: 35%;
+    width: 65%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
