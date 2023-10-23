@@ -9,12 +9,26 @@
   <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="/css/normalize.min.css" />
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="style.css">
 
-  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/bubblegum">
-  
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/bubblegum">  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    #upButton {
+      width: 80px;
+      height: 80px;
+      opacity: .75;
+    }
+  </style>
+
+  <script defer>
+    function scrollUp() {
+      window.scrollTo(0,0);
+    }
+  </script>
 </head>
 <body>
   <!-- Íconos de redes sociales para usar en el footer -->
@@ -103,6 +117,11 @@
       <h2 class="py-3 text-center">Visión</h2>
 
       <p class="fs-5 justify indent">Convertir a Taiyaki Ayu-Yami en la mejor tienda de postres estilo japonés ofreciendo productos de calidad, áreas cómodas, divertidas y accesible a todos. 🌸</p>
+
+      <div class="d-flex justify-content-center pt-3">
+        <img id="upButton" onclick="scrollUp()" id="up" src="images/up.png" alt="Subir">
+      </div>
+      <p class="text-center">Subir</p>
     </div>
   </div>
 
