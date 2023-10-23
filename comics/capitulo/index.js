@@ -80,7 +80,7 @@ function navBtnKeysRaw(clave) {
   let id = parseInt(clave);
   if (isNaN(id)) {
     // Crear boton next a comic 000
-    return ['', 1];
+    return ['', 0];
   }
   else if (id == 0) {
     return ['cortos', id + 1 ];
