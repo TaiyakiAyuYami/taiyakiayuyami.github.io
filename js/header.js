@@ -50,6 +50,9 @@ class Header extends HTMLElement {
                   <a class="nav-link" href="/">Inicio</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="/conocenos/">Conócenos</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="/comics">Historietas</a>
                 </li>
                 <li class="nav-item">
