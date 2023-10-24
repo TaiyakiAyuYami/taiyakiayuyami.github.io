@@ -26,27 +26,27 @@ function createNavElement (claves) {
   let html = '';
   if (claves[0] == '') {
     html = `
-      <div class="container-fluid d-flex justify-content-end pt-3">
-        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/next.webp" alt="Siguiente cómic" style="width: 70px; height: 70px;"></a>
+      <div class="container-fluid d-flex justify-content-end px-4">
+        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" style="width: 60px; height: 70px;"></a>
       </div>
     `;
   } else if (claves[1] == "") {
     html = `
-    <div class="container-fluid d-flex justify-content-start pt-3">
-      <a href="../capitulo/?id=${claves[0]}"><img src="/assets/previous.webp" alt="Anterior cómic" style="width: 70px; height: 70px;"></a>
+    <div class="container-fluid d-flex justify-content-start px-4">
+      <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
     </div>
   `;
   } else if (claves[1] == 3) {
     html = `
-      <div class="container-fluid d-flex justify-content-start pt-3">
-        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/previous.webp" alt="Anterior cómic" style="width: 70px; height: 70px;"></a>
+      <div class="container-fluid d-flex justify-content-start px-4">
+        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
       </div>
     `;
   } else {
     html = `
-      <div class="container-fluid d-flex justify-content-between pt-3">
-        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/previous.webp" alt="Anterior cómic" style="width: 70px; height: 70px;"></a>
-        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/next.webp" alt="Siguiente cómic" style="width: 70px; height: 70px;"></a>
+      <div class="container-fluid d-flex justify-content-between px-4">
+        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
+        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" style="width: 60px; height: 70px;"></a>
       </div>
     `;
   }
