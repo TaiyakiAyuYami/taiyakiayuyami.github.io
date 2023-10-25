@@ -122,15 +122,15 @@ h2 {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 575px) {
-  iframe {
-    width: 420px;
-    height: 236px;
-  }
-}
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 305px) and (max-width: 575px) {
   iframe {
     width: 336px;
     height: 189px;
   }
+}
+@media screen and (max-width: 304px) {
+  /* Evitar traslape con navbar que se expande */
+  /* body {
+    padding-top: 90px;
+  } */
 }
