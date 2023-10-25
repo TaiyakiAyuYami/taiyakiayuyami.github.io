@@ -36,7 +36,7 @@ function createNavElement (claves) {
       <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
     </div>
   `;
-  } else if (claves[1] == 3) {
+  } else if (claves[1] == 4) {
     html = `
       <div class="container-fluid d-flex justify-content-start px-4">
         <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>

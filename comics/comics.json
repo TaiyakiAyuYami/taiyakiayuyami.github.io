@@ -45,5 +45,17 @@
     "bg_color": "",
     "card_color": "#96d0e4",
     "date": "16/10/2023"
+  },
+
+  "003":
+  {
+    "id": 5,
+    "title": "Halloween 2023",
+    "description": "",
+    "format": "webp",
+    "pages": 4,
+    "bg_color": "",
+    "card_color": "#fc9745c0",
+    "date": "24/10/2023"
   }
 }
