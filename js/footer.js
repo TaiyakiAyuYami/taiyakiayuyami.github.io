@@ -33,12 +33,12 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="d-flex flex-wrap justify-content-between align-items-center">
-          <div class="col-md-4 my-1 d-flex flex-row justify-content-center align-items-center">
+          <div class="col-md-4 my-1 d-flex flex-row align-items-center justify-content-start">
             <a href="/" class="text-decoration-none"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto"></a>
             <span class="mb-md-0 text-body-secondary fs-6">&nbsp;2023 Taiyaki Ayu-Yami</span>
           </div>
 
-          <div class="col-md-4 my-1 d-flex flex-row justify-content-center align-items-center">
+          <div class="col-md-4 my-1 d-flex flex-row align-items-center justify-content-center">
             <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
             <span class="mb-md-0 text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
           </div>
