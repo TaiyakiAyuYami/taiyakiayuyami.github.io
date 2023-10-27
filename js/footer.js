@@ -33,17 +33,19 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="d-flex flex-wrap justify-content-between align-items-center">
-          <div class="col-md-4 my-1 d-flex flex-row align-items-center justify-content-start">
+          <div class="col-md-6 my-1 d-flex flex-row align-items-center justify-content-start">
             <a href="/" class="text-decoration-none"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto"></a>
             <span class="mb-md-0 text-body-secondary fs-6">&nbsp;2023 Taiyaki Ayu-Yami</span>
           </div>
 
-          <div class="col-md-4 my-1 d-flex flex-row align-items-center justify-content-center">
+          <div class="col-md-6 my-1 d-flex flex-row align-items-center justify-content-end">
             <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
             <span class="mb-md-0 text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
           </div>
+        </div>
 
-          <ul class="nav col-md-4 my-1 justify-content-end list-unstyled d-flex">
+        <div class="pb-3 text-center">
+          <ul class="nav myt-1 justify-content-center list-unstyled d-flex">
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#tiktok"/></svg></a></li>
