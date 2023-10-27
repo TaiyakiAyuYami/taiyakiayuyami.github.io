@@ -24,7 +24,7 @@ class Footer extends HTMLElement {
         }
       </style>
       
-      <footer class="px-2 py-3 mt-4 border-top">
+      <footer class="py-3 mt-4 border-top">
         <div class="pb-3 text-center">
           <button type="button" class="btn btn-whatsapp"><a target="_blank" rel="noopener noreferrer" class="text-white link-whatsapp" href="https://wa.me/5219993279475">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -32,26 +32,25 @@ class Footer extends HTMLElement {
             </svg>&nbsp;Haz tu pedido por WhatsApp aquí</a></button>
         </div>
 
-        <div class="d-flex flex-wrap justify-content-between align-items-center">
-          <div class="col-md-6 my-1 d-flex flex-row align-items-center justify-content-start">
-            <a href="/" class="text-decoration-none"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto"></a>
-            <span class="mb-md-0 text-body-secondary fs-6">&nbsp;2023 Taiyaki Ayu-Yami</span>
+        <div class="container-fluid">
+          <div class="row row-cols-auto d-flex justify-content-between">
+            <div class="col py-1">
+              <a href="/" class="text-decoration-none"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto"></a>
+              <span class="mb-md-0 text-body-secondary fs-6">&nbsp;2023 Taiyaki Ayu-Yami</span>
+            </div>
+            <div class="col py-1">
+              <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
+              <span class="mb-md-0 text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
+            </div>
+            <div class="col py-1">
+              <ul class="nav myt-1 justify-content-center list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#tiktok"/></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#youtube"/></svg></a></li>
+              </ul>
+            </div>
           </div>
-
-          <div class="col-md-6 my-1 d-flex flex-row align-items-center justify-content-end">
-            <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
-            <span class="mb-md-0 text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
-          </div>
-        </div>
-
-        <div class="pb-3 text-center">
-          <ul class="nav myt-1 justify-content-center list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#tiktok"/></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#youtube"/></svg></a></li>
-            <!-- <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#whatsapp"/></svg></a></li> -->
-          </ul>
         </div>
       </footer>
     `
