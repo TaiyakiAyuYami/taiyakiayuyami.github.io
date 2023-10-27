@@ -43,7 +43,7 @@ class Footer extends HTMLElement {
             <span class="mb-md-0 text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
           </div>
 
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <ul class="nav col-md-4 my-1 justify-content-end list-unstyled d-flex">
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#tiktok"/></svg></a></li>
