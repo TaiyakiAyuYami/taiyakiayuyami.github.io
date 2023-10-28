@@ -7,6 +7,22 @@ fetch('comics.json')
     appendCardsToContainer(cardsHTML);
   })
 
+const ordButton = document.querySelector('#reordenarBtn')
+ordButton.addEventListener('click', reordenarCards)
+
+function reordenarCards() {
+  const parent = document.querySelector('#cards-container');
+  const children = parent.children;
+
+  for (let i = children.length - 1; i >= 0; i--) {
+      parent.appendChild(children[i]);
+  }
+
+  const flecha =  this.querySelector('use').getAttribute('href');
+  if (flecha == '#arrow-down') this.querySelector('use').setAttribute('href', '#arrow-up');
+  else this.querySelector('use').setAttribute('href', '#arrow-down');
+}
+
 function readComics(obj) {
   let result = [];
   for (let key in obj) {

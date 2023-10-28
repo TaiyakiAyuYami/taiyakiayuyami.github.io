@@ -34,19 +34,15 @@
 <main>
   <!-- Contenido -->
   <div class="container py-5 min-height-screen">
-    <div id="cards-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      
-      <!-- Insertar cards por script desde archivo JSON -->
 
-      <!-- <div class="col d-flex align-items-stretch" >
-        <div class="card shadow-sm" style="background-color: ${data.card_color};">
-          <a href="./capitulo/?id=${code}"><img src="./capitulo/${code}/0.${data.format}" class="card-img-top" alt="${data.title}"></a>
-          <div class="card-body">
-            <a href="/.capitulo/?id=${code}" class="btn btn-primary float-end">Leer</a>
-          </div>
-        </div>
-      </div> -->
+    <div class="d-flex justify-content-end">
+      <button id="reordenarBtn" class="btn btn-info text-right">Cambiar orden&nbsp;<svg class="bi" width="24" height="24"><use href="#arrow-down"/></svg></button>
     </div>
+
+    <div id="cards-container" class="pt-3 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <!-- Insertar cards por script desde archivo JSON -->
+    </div>
+    
   </div>
 </main>
 
