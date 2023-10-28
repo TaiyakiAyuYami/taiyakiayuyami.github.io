@@ -18,7 +18,7 @@ class Banner extends HTMLElement {
     
     this.innerHTML = `
       <style>
-        img:hover {
+        img.logo-header:hover {
           cursor: pointer;
         }
       </style>
