@@ -14,7 +14,6 @@ fetch('../comics.json')
       const botonesCrudo = navBtnKeysRaw(comicId);
       const botonesClave = navKeys(botonesCrudo[0], botonesCrudo[1]);
       const navElement = createNavElement(botonesClave);
-      console.log(navElement);
       appendImageElements('nav-buttons', navElement)
     }
 
