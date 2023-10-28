@@ -19,8 +19,14 @@ function reordenarCards() {
   }
 
   const flecha =  this.querySelector('use').getAttribute('href');
-  if (flecha == '#arrow-down') this.querySelector('use').setAttribute('href', '#arrow-up');
-  else this.querySelector('use').setAttribute('href', '#arrow-down');
+  if (flecha == '#arrow-down') {
+    this.querySelector('use').setAttribute('href', '#arrow-up');
+    this.querySelector('#textoBtn').innerText = 'Más recientes primero';
+  }
+  else {
+    this.querySelector('use').setAttribute('href', '#arrow-down');
+    this.querySelector('#textoBtn').innerText = 'Más antiguos primero';
+  }
 }
 
 function readComics(obj) {
