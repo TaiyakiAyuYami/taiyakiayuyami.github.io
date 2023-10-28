@@ -24,7 +24,7 @@ class Footer extends HTMLElement {
         }
       </style>
       
-      <footer class="container-fluid mt-3 border-top">
+      <footer class="container-fluid mt-3 mb-1 border-top">
         <div class="row row-cols-auto py-1 justify-content-center">
           <div class="col py-1">
             <button type="button" class="btn btn-whatsapp"><a target="_blank" rel="noopener noreferrer" class="text-white link-whatsapp" href="https://wa.me/5219993279475"><svg fill="currentColor" width="24" height="24"><use xlink:href="#whatsapp"/></svg>&nbsp;Haz tu pedido por WhatsApp aquí</a></button>
