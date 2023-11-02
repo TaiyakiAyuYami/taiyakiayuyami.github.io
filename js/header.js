@@ -72,7 +72,7 @@ class Header extends HTMLElement {
                   <a class="nav-link" href="/comics">Historietas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" target="_blank" rel="noopener noreferrer" href="/assets/Menu Taiyaki Ayu-Yami.pdf">Menú</a>
+                  <a class="nav-link" href="/menu/">Menú</a>
                 </li>
                 <li hidden class="nav-item">
                   <a class="nav-link disabled" aria-disabled="true" href="#">Item disabled</a>
