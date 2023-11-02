@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
+  <title>Taiyaki Ayu-Yami</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/normalize.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/bubblegum">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script src="/js/header.js" defer></script>
+  <script src="/js/banner.js" defer></script>
+  <script src="/js/banner-full.js" defer></script>
+  <script src="/js/footer.js" defer></script>
+  <script src="/js/functions.js" defer></script>
+
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header-component></header-component>
+
+  <banner-component
+    data-bg-color="#8cb3ee"
+    data-flip-char=""
+    data-text1="Menu"
+    data-text2="">
+  </banner-component>
+
+  <main>
+    <div class="py-5 min-height-screen">
+      <img class="img-menu pb-3" src="/assets/menu1.webp" alt="Menú de postres">
+      
+      <img class="img-menu pb-5" src="/assets/menu2.webp" alt="Menú de bebidas">
+
+      <h3 class="text-center"><a href="/assets/Menu Taiyaki Ayu-Yami.pdf" target="_blank">Descargar PDF&nbsp;<svg fill="currentColor" width="24" height="24"><use xlink:href="#bi-download"/></svg></a></h3>
+    </div>
+  </main>
+
+  <footer-component></footer-component>
+
+  <script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
