@@ -55,7 +55,19 @@
     "format": "webp",
     "pages": 4,
     "bg_color": "",
-    "card_color": "#fc9745c0",
+    "card_color": "#f5ae73",
     "date": "24/10/2023"
+  },
+
+  "004":
+  {
+    "id": 6,
+    "title": "Sandwich de bolita por favor",
+    "description": "",
+    "format": "webp",
+    "pages": 7,
+    "bg_color": "",
+    "card_color": "#aac5fa",
+    "date": "15/11/2023"
   }
 }
