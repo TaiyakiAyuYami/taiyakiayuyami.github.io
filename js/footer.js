@@ -39,7 +39,7 @@ class Footer extends HTMLElement {
 
         footer .icons {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           align-items: center;
           flex-wrap: wrap;
 
@@ -59,6 +59,7 @@ class Footer extends HTMLElement {
             padding-left: 0px;
           }
           footer .icons {
+            justify-content: space-around;
             gap: 8px;
           }          
         }
