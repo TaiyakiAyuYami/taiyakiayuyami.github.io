@@ -34,7 +34,7 @@ class Footer extends HTMLElement {
           justify-content: center;
           align-items: center;
 
-          padding-left: 40px;
+          padding-left: 48.38px;
         }
 
         footer .icons {
@@ -75,6 +75,11 @@ class Footer extends HTMLElement {
             <span class="text-body-secondary fs-6">2023 Taiyaki Ayu-Yami</span>
           </div>
 
+          <div class="icon">
+            <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
+            <span class="text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
+          </div>
+
           <div class="social">
             <ul>
               <li><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
@@ -82,11 +87,6 @@ class Footer extends HTMLElement {
               <li><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@taiyaki.ayuyami"><svg class="bi" width="24" height="24"><use xlink:href="#tiktok"/></svg></a></li>
               <li><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#youtube"/></svg></a></li>
             </ul>
-          </div>
-
-          <div class="icon">
-            <a href="https://www.redbubble.com/people/taiyakiayu-yami/shop" target="_blank" rel="noopener noreferrer" class="text-decoration-none"><svg class="bi" width="30" height="30"><use xlink:href="#redbubbleIcon"/></svg>
-            <span class="text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
           </div>
         </div>
       </footer>
