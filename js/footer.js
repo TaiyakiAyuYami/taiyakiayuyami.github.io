@@ -26,6 +26,7 @@ class Footer extends HTMLElement {
         /* Actual styles */
         footer {
           padding: 12px 8px;
+          margin-top: 2em;
           border-top: 1px solid #dee2e6;
         }
 
@@ -34,7 +35,7 @@ class Footer extends HTMLElement {
           justify-content: center;
           align-items: center;
 
-          padding-left: 48.38px;
+          padding-left: 50px;
         }
 
         footer .icons {
@@ -48,7 +49,7 @@ class Footer extends HTMLElement {
 
         footer .social ul {
           display: flex;
-          gap: .5em;
+          gap: .9em;
 
           list-style-type: none;
           padding: 0;
