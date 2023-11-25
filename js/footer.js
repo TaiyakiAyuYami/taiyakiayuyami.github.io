@@ -58,6 +58,9 @@ class Footer extends HTMLElement {
           .whatsapp {
             padding-left: 0px;
           }
+          footer .icons {
+            gap: 8px;
+          }          
         }
       </style>
       
