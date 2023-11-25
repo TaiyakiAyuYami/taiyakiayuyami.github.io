@@ -54,6 +54,11 @@ class Footer extends HTMLElement {
           padding: 0;
           margin: 0;
         }
+        @media all and (max-width: 576px) {
+          .whatsapp {
+            padding-left: 0px;
+          }
+        }
       </style>
       
       <footer>
