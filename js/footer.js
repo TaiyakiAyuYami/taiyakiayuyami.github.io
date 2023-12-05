@@ -4,6 +4,7 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback() {
+    const year = new Date().getFullYear();
     this.innerHTML = `
       <style>
         .btn-whatsapp {
@@ -73,7 +74,7 @@ class Footer extends HTMLElement {
         <div class="icons">
           <div class="icon-text">
             <a href="/" class="text-decoration-none"><img src="/assets/icon-ayu-yami.webp" alt="Ayu-Yami icon" width="30" height="auto"></a>
-            <span class="text-body-secondary fs-6">2023 Taiyaki Ayu-Yami</span>
+            <span class="text-body-secondary fs-6">${year} Taiyaki Ayu-Yami</span>
           </div>
 
           <div class="icon">
