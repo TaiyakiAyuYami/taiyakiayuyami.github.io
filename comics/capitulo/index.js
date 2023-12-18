@@ -1,4 +1,4 @@
-import { navKeysRaw, navKeys, createNavElement} from './modules/arrows.js';
+import { navKeysRaw, navKeys, createNavElement} from './arrows.js';
 const urlParams = new URLSearchParams(window.location.search);
 const comicId = urlParams.get('id');
 
