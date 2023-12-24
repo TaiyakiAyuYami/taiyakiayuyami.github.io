@@ -69,5 +69,17 @@
     "bg_color": "",
     "card_color": "#aac5fa",
     "date": "15/11/2023"
+  },
+
+  "005":
+  {
+    "id": 7,
+    "title": "Navidad 2023",
+    "description": "",
+    "format": "webp",
+    "pages": 7,
+    "bg_color": "",
+    "card_color": "#e2657c",
+    "date": "24/12/2023"
   }
 }
