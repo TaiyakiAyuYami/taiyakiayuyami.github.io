@@ -82,6 +82,11 @@ class Footer extends HTMLElement {
             <span class="text-body-secondary fw-bold fs-6">Tienda en línea</span></a>
           </div>
 
+          <div class="icon">
+            <a class="text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/aF3i35kVTvQ3X9JK7"><svg class="bi" width="30" height="30"><use xlink:href="#bi-location"/></svg>
+            <span class="text-body-secondary fw-bold fs-6">¡Visítanos!</span></a>
+          </div>
+
           <div class="social">
             <ul>
               <li><a class="text-body-secondary" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TaiyakiAyuYami"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
