@@ -81,5 +81,17 @@
     "bg_color": "",
     "card_color": "#e2657c",
     "date": "24/12/2023"
+  },
+
+  "006":
+  {
+    "id": 7,
+    "title": "Aprendiendo a patinar",
+    "description": "",
+    "format": "webp",
+    "pages": 10,
+    "bg_color": "",
+    "card_color": "#b4b5b4",
+    "date": "11/06/2024"
   }
 }
