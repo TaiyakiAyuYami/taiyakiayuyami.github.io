@@ -49,8 +49,17 @@ h2 {
   color: #ffffff;
   font-size: 3rem;
 }
+.title-big-grey {
+  color: #424242;
+  font-size: 3rem;
+}
 .min-height-screen {
   min-height: 60vh;
+}
+.container-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Visualizador de comics */
