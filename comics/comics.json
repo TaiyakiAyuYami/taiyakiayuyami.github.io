@@ -105,5 +105,17 @@
     "bg_color": "",
     "card_color": "#6c6764",
     "date": "25/10/2024"
+  },
+
+  "008":
+  {
+    "id": 10,
+    "title": "Tai-Chan no está 2",
+    "description": "",
+    "format": "webp",
+    "pages": 21,
+    "bg_color": "",
+    "card_color": "#6c6764",
+    "date": "20/01/2025"
   }
 }
