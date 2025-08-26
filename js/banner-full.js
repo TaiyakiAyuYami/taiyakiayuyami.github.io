@@ -17,7 +17,7 @@ class BannerFull extends HTMLElement {
 
       <!-- Banner -->
       <div class="d-flex justify-content-center align-items-center py-3" style="background-color: ${bgColor}">
-        <img onclick="goHome()" class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo">
+        <img onclick="goHome()" class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync">
       </div>
     `
   }

@@ -34,7 +34,7 @@ function readComics(obj) {
 function createImageElements(comicInfo) {
   let imgList = '';
   for (let i = 0; i <= comicInfo.pages; i++ ) {
-    imgList += `<img class="img-comic" src="./${comicId}/${i}.${comicInfo.format}">`;
+    imgList += `<img class="img-comic" src="./${comicId}/${i}.${comicInfo.format}" ${i === 0 ? 'loading="eager" fetchpriority="high" decoding="sync"' : 'loading="lazy" decoding="async"'}>`;
   }
   return imgList;
 }
