@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,73 +17,78 @@
   <script src="/js/footer.js" defer></script>
   <script src="/js/functions.js" defer></script>
 </head>
+
 <body>
 
-<header-component></header-component>
-<banner-component
-  data-bg-color="#8cb3ee"
-  data-flip-char="!"
-  data-text1="Bienvenido a"
-  data-text2="Taiyaki Ayu-Yami!">
-</banner-component>
+  <header-component></header-component>
+  <banner-component
+    data-bg-color="#8cb3ee"
+    data-flip-char="!"
+    data-text1="Bienvenido a"
+    data-text2="Taiyaki Ayu-Yami!">
+  </banner-component>
 
-<main>
-  <!-- Contenido principal -->
-  <div class="container py-5 min-height-screen">
-    <div class="bubblegum title-big-grey text-center"><span class="d-inline-block flip-y">!</span>Ven a visitarnos!</div>
-
-    <h1 class="bubblegum title-grey text-center">Sucursal principal:</h1>
-    <div class="container-map mb-5">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.835717120775!2d-89.64391632399419!3d21.03925838741641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674634bd70ee3%3A0x85df5feed208570!2sTaiyaki%20Ayu-Yami!5e0!3m2!1ses-419!2smx!4v1718136600557!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <h1 class="bubblegum title-grey text-center">Sucursal centro:</h1>
-    <div class="container-map mb-5">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29806.078034987346!2d-89.65890347957613!3d20.96216096715934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671672390c667%3A0x702ef322f007f585!2sTaiyaki%20Ayu-Yami%20Centro!5e0!3m2!1ses-419!2smx!4v1756594376225!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      
-      <!-- Cards con enlaces a otras secciones de la página -->
-      <div class="col d-flex align-items-stretch">
-        <div class="card shadow-sm">
-          <a href="/conocenos/"><img src="/assets/thumbnail-about.webp" class="card-img-top" alt="thumbnail-historietas" loading="lazy" decoding="async"></a>
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Conócenos</h5>
-            <p class="card-text">¡Descubre más sobre nosotros aquí!</p>
-            <a href="/conocenos/" class="btn btn-primary mt-auto">Ver</a>
+  <main>
+    <!-- Contenido principal -->
+    <div class="container py-5 min-height-screen">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- Cards con enlaces a otras secciones de la página -->
+        <div class="col d-flex align-items-stretch">
+          <div class="card shadow-sm">
+            <a href="/sucursales/index.html"><img src="/assets/thumbnail-maps.png" class="card-img-top"
+                alt="thumbnail-maps" loading="lazy" decoding="async"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Visítanos</h5>
+              <p class="card-text">¡Ven a visitarnos a nuestas sucursales!</p>
+              <a href="/sucursales/" class="btn btn-primary mt-auto">Visitar</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col d-flex align-items-stretch">
-        <div class="card shadow-sm">
-          <a href="/comics/"><img src="/assets/thumbnail-comics.webp" class="card-img-top" alt="thumbnail-historietas" loading="lazy" decoding="async"></a>
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Historietas</h5>
-            <p class="card-text">¡Aventúrate con nosotras, listas para la diversión! Capítulos nuevos próximamente :3</p>
-            <a href="/comics/" class="btn btn-primary mt-auto">Ver historietas</a>
+        <div class="col d-flex align-items-stretch">
+          <div class="card shadow-sm">
+            <a href="/conocenos/"><img src="/assets/thumbnail-about.webp" class="card-img-top"
+                alt="thumbnail-historietas" loading="lazy" decoding="async"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Conócenos</h5>
+              <p class="card-text">¡Descubre más sobre nosotros aquí!</p>
+              <a href="/conocenos/" class="btn btn-primary mt-auto">Ver</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col d-flex align-items-stretch">
-        <div class="card shadow-sm">
-          <a href="/menu/"><img src="/assets/thumbnail-menu.webp" class="card-img-top" alt="thumbnail-menu" loading="lazy" decoding="async"></a>
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Menú</h5>
-            <p class="card-text">Revisa todo nuestro menú aquí &#129505;</p>
-            <a href="/menu/" class="btn btn-primary mt-auto">Ver menú</a>
+        <div class="col d-flex align-items-stretch">
+          <div class="card shadow-sm">
+            <a href="/comics/"><img src="/assets/thumbnail-comics.webp" class="card-img-top" alt="thumbnail-historietas"
+                loading="lazy" decoding="async"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Historietas</h5>
+              <p class="card-text">¡Aventúrate con nosotras, listas para la diversión! Capítulos nuevos próximamente :3
+              </p>
+              <a href="/comics/" class="btn btn-primary mt-auto">Ver historietas</a>
+            </div>
           </div>
         </div>
-      </div>
 
+        <div class="col d-flex align-items-stretch">
+          <div class="card shadow-sm">
+            <a href="/menu/"><img src="/assets/thumbnail-menu.webp" class="card-img-top" alt="thumbnail-menu"
+                loading="lazy" decoding="async"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Menú</h5>
+              <p class="card-text">Revisa todo nuestro menú aquí &#129505;</p>
+              <a href="/menu/" class="btn btn-primary mt-auto">Ver menú</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</main>
+  </main>
 
-<footer-component></footer-component>
+  <footer-component></footer-component>
 
-<script src="/js/bootstrap.bundle.js"></script>
+  <script src="/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" as="image" href="/assets/logo.webp" fetchpriority="high">
+  <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
+  <title>Taiyaki Ayu-Yami</title>
+
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/header.js" defer></script>
+  <script src="/js/banner.js" defer></script>
+  <script src="/js/footer.js" defer></script>
+
+  <style>
+    .title {
+      color: #424242;
+    }
+  </style>
+</head>
+
+<body>
+  <header-component></header-component>
+  <banner-component
+    data-text1="Nuestras sucursales"
+    data-bg-color="#efe4b0">
+  </banner-component>
+  <main>
+    <div class="mx-2 my-5">
+      <div class="container min-height-screen">
+        <h1 class="bubblegum title-grey text-center">Cafeteria fco. de Montejo:</h1>
+        <div class="container-map mb-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.835717120775!2d-89.64391632399419!3d21.03925838741641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674634bd70ee3%3A0x85df5feed208570!2sTaiyaki%20Ayu-Yami!5e0!3m2!1ses-419!2smx!4v1718136600557!5m2!1ses-419!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <h1 class="bubblegum title-grey text-center">Punto de venta centro:</h1>
+        <div class="container-map mb-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29806.078034987346!2d-89.65890347957613!3d20.96216096715934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671672390c667%3A0x702ef322f007f585!2sTaiyaki%20Ayu-Yami%20Centro!5e0!3m2!1ses-419!2smx!4v1756594376225!5m2!1ses-419!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer-component></footer-component>
+
+  <script src="/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
