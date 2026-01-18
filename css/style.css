@@ -1,4 +1,13 @@
 @import url('https://fonts.cdnfonts.com/css/bubblegum');
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('/assets/fonts/OpenSans-Regular.woff') format('woff'),
+        url('/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Responsive: https://www.taniarascia.com/you-dont-need-a-framework/ */
 html {
@@ -11,11 +20,6 @@ html {
 }
 
 /* Custom */
-@font-face {
-  font-family: 'Open Sans';
-  src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('ttf');
-  font-display: swap;
-}
 body {
   background-color: #94d8ff4b;
   /* padding-top: 56px; // En caso de hacer fixed-top el navbar del header.js  */
@@ -74,10 +78,6 @@ h2 {
   background-repeat: repeat;
   background-size: auto;
   background-position: center;
-}
-.comic-background {
-  /* Si se automatiza le vista de comics ya no se usara */
-  background-color: #cbe0f8;
 }
 .img-comic  {
   width: 98%;
