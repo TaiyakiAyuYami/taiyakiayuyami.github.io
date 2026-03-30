@@ -17,15 +17,9 @@ class Banner extends HTMLElement {
     if (!text2) text2 = '';
     
     this.innerHTML = `
-      <style>
-        img.logo-header:hover {
-          cursor: pointer;
-        }
-      </style>
-
       <!-- Banner -->
       <div class="container rounded-bottom d-flex justify-content-around align-items-center py-3 ${classes}" style="background-color: ${bgColor};">
-        <img onclick="goHome()" class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync">
+        <a href="/"><img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync"></a>
         <div class="text-center">
           <div class="bubblegum title"><span class="d-inline-block flip-y">${flipChar}</span>${text1}</div>
           <div class="bubblegum title">${text2}</div>

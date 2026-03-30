@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,8 @@
   <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
   <title>Taiyaki Ayu-Yami</title>
 
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/">
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/" crossorigin>
   <link href="/assets/fonts/OpenSans-Regular.woff2" type="font/woff2"
     rel="preload" as="font" crossorigin>
   <link rel="stylesheet" href="/css/normalize.min.css">
@@ -16,18 +18,7 @@
   <script src="/js/header.js" defer></script>
   <script src="/js/banner-full.js" defer></script>
   <script src="/js/footer.js" defer></script>
-  <script src="/js/functions.js" defer></script>
 
-  <style>
-    #upButton {
-      width: 60px;
-      height: 70px;
-      opacity: .50;
-    }
-    img#upButton {
-      cursor: pointer;
-    }
-  </style>
 
   <script defer>
     function scrollUp() {
@@ -81,7 +72,7 @@
       <p class="fs-5 justify indent">Convertir a Taiyaki Ayu-Yami en la mejor tienda de postres estilo japonés ofreciendo productos de calidad, áreas cómodas, divertidas y accesible a todos. 🌸</p>
 
       <div class="d-flex justify-content-center pt-3">
-        <img id="upButton" onclick="scrollUp()" id="up" src="/assets/up.webp" alt="Subir">
+        <button id="upButton" onclick="scrollUp()" aria-label="Subir al inicio"><img src="/assets/up.webp" alt="Subir"></button>
       </div>
     </div>
   </div>

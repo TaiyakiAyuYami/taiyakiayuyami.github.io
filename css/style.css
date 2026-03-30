@@ -9,6 +9,12 @@
     font-display: swap;
 }
 
+:root {
+  --color-body-bg: #94d8ff4b;
+  --color-title-light: #ffffff;
+  --color-title-dark: #424242;
+}
+
 /* Responsive: https://www.taniarascia.com/you-dont-need-a-framework/ */
 html {
   box-sizing: border-box;
@@ -21,8 +27,7 @@ html {
 
 /* Custom */
 body {
-  background-color: #94d8ff4b;
-  /* padding-top: 56px; // En caso de hacer fixed-top el navbar del header.js  */
+  background-color: var(--color-body-bg);
   font-family: 'Open Sans', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 h1 {
@@ -41,25 +46,20 @@ h2 {
 }
 .flip-y {
   transform: scale(1, -1);
-  -moz-transform: scale(1, -1);
-  -webkit-transform: scale(1, -1);
-  -o-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
-  transform: scale(1, -1);
 }
 .title {
-  color: #ffffff;
+  color: var(--color-title-light);
   font-size: 1.5rem;
 }
 .title-grey {
-  color: #424242;
+  color: var(--color-title-dark);
 }
 .title-big {
-  color: #ffffff;
+  color: var(--color-title-light);
   font-size: 3rem;
 }
 .title-big-grey {
-  color: #424242;
+  color: var(--color-title-dark);
   font-size: 3rem;
 }
 .min-height-screen {
@@ -119,6 +119,35 @@ h2 {
   border-radius: 5%;
 }
 
+/* Conocenos */
+#upButton {
+  background: none;
+  border: none;
+  padding: 0;
+  opacity: .50;
+  cursor: pointer;
+}
+#upButton img {
+  width: 60px;
+  height: 70px;
+}
+
+/* Menu */
+.page-menu a {
+  text-decoration: none;
+}
+
+/* Sucursales */
+.page-sucursales .title {
+  color: var(--color-title-dark);
+}
+
+/* Comic navigation arrows */
+.nav-arrow {
+  width: 60px;
+  height: 70px;
+}
+
 @media screen and (min-width: 992px) {
   .title {
     font-size: 3rem;
@@ -152,10 +181,4 @@ h2 {
     width: 336px;
     height: 189px;
   }
-}
-@media screen and (max-width: 304px) {
-  /* Evitar traslape con navbar que se expande en fixed-top */
-  /* body {
-    padding-top: 90px;
-  } */
 }

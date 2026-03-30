@@ -3,26 +3,26 @@ const createNavElement = function (claves, nextComicNumber) {
   if (claves[0] == '') {
     html = `
       <div class="container-fluid d-flex justify-content-end px-4">
-        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" style="width: 60px; height: 70px;"></a>
+        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" class="nav-arrow"></a>
       </div>
     `;
   } else if (claves[1] == "") {
     html = `
     <div class="container-fluid d-flex justify-content-start px-4">
-      <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
+      <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" class="nav-arrow"></a>
     </div>
   `;
   } else if (claves[1] == nextComicNumber) {
     html = `
       <div class="container-fluid d-flex justify-content-start px-4">
-        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
+        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" class="nav-arrow"></a>
       </div>
     `;
   } else {
     html = `
       <div class="container-fluid d-flex justify-content-between px-4">
-        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" style="width: 60px; height: 70px;"></a>
-        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" style="width: 60px; height: 70px;"></a>
+        <a href="../capitulo/?id=${claves[0]}"><img src="/assets/left.webp" alt="Anterior cómic" class="nav-arrow"></a>
+        <a href="../capitulo/?id=${claves[1]}"><img src="/assets/right.webp" alt="Siguiente cómic" class="nav-arrow"></a>
       </div>
     `;
   }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preload" as="image" href="/assets/logo.webp" fetchpriority="high">
   <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
-  <title>Ayu-Yami Adventures</title>
+  <title>Historietas — Taiyaki Ayu-Yami</title>
 
   <link rel="preconnect" href="https://fonts.cdnfonts.com/">
   <link rel="preconnect" href="https://fonts.cdnfonts.com/" crossorigin>
@@ -18,8 +18,8 @@
   <script src="/js/header.js" defer></script>
   <script src="/js/banner.js" defer></script>
   <script src="/js/footer.js" defer></script>
-  <script src="/js/functions.js" defer></script>
-  <script src="index.js" defer></script>
+
+  <script type="module" src="index.js" defer></script>
 </head>
 <body>
 
@@ -37,7 +37,7 @@
 
     <div class="d-flex justify-content-end align-items-center">
       <span class="text-body-tertiary">Cambiar orden:&nbsp;&nbsp;</span>
-      <button id="reordenarBtn" class="btn btn-info text-right"><span id="textoBtn">Más antiguos primero</span>&nbsp;<svg class="bi" width="24" height="24"><use href="#arrow-down"/></svg></button>
+      <button id="reordenarBtn" class="btn btn-info text-right" aria-label="Cambiar orden de historietas"><span id="textoBtn">Más antiguos primero</span>&nbsp;<svg class="bi" width="24" height="24"><use href="#arrow-down"/></svg></button>
     </div>
 
     <div id="cards-container" class="pt-3 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
