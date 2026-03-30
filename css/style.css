@@ -39,9 +39,12 @@ h2 {
 .bubblegum {
   font-family: 'BubbleGum', sans-serif;
 }
-.logo-header {
+.logo-header-link {
   width: 35%;
   max-width: 200px;
+}
+.logo-header {
+  width: 100%;
   height: auto;
 }
 .flip-y {

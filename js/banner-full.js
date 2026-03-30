@@ -11,7 +11,7 @@ class BannerFull extends HTMLElement {
     this.innerHTML = `
       <!-- Banner -->
       <div class="d-flex justify-content-center align-items-center py-3" style="background-color: ${bgColor}">
-        <a href="/"><img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync"></a>
+        <a href="/" class="logo-header-link"><img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync"></a>
       </div>
     `
   }

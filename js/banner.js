@@ -19,7 +19,7 @@ class Banner extends HTMLElement {
     this.innerHTML = `
       <!-- Banner -->
       <div class="container rounded-bottom d-flex justify-content-around align-items-center py-3 ${classes}" style="background-color: ${bgColor};">
-        <a href="/"><img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync"></a>
+        <a href="/" class="logo-header-link"><img class="logo-header" src="/assets/logo.webp" alt="Ayu-Yami logo" loading="eager" fetchpriority="high" decoding="sync"></a>
         <div class="text-center">
           <div class="bubblegum title"><span class="d-inline-block flip-y">${flipChar}</span>${text1}</div>
           <div class="bubblegum title">${text2}</div>
