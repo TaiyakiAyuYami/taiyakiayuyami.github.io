@@ -1,0 +1,44 @@
+{
+  "collections": [
+    {
+      "slug": "primavera",
+      "title": "Primavera",
+      "background_color": "#c7ddf5",
+      "cover": "primavera/cover.webp",
+      "stickers": [
+        {
+          "id": "092",
+          "personaje":  ["Aomi"],
+          "format": "webp",
+          "year": "2025"
+        },
+        {
+          "id": "093",
+          "personaje":  ["Aomi", "Yun"],
+          "format": "webp",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "slug": "dia-del-nino",
+      "title": "Día del Niño",
+      "background_color": "#b4b5b4",
+      "cover": "dia-del-nino/cover.webp",
+      "stickers": [
+        {
+          "id": "051",
+          "personaje":  ["Ayu", "Yami"],
+          "format": "webp",
+          "year": "2025"
+        },
+        {
+          "id": "079",
+          "personaje":  ["Yami"],
+          "format": "webp",
+          "year": "2025"
+        }
+      ]
+    }
+  ]
+}
