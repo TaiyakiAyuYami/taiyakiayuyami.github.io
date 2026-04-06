@@ -9,22 +9,22 @@
   "000": {
     "title": "Capítulo piloto",
     "format": "webp",
-    "pages": 7,
+    "pages": 3,
     "card_color": "#c7ddf5",
     "date": "2023-10-16"
   },
   "001": {
-    "title": "Un día con Yami",
-    "format": "webp",
-    "pages": 10,
-    "card_color": "#ebbae7",
-    "date": "2023-10-16"
-  },
-  "002": {
     "title": "Un día con Ayu",
     "format": "webp",
     "pages": 8,
     "card_color": "#96d0e4",
+    "date": "2023-10-16"
+  },
+  "002": {
+    "title": "Un día con Yami",
+    "format": "webp",
+    "pages": 10,
+    "card_color": "#ebbae7",
     "date": "2023-10-16"
   },
   "003": {
