@@ -17,7 +17,7 @@ function generateCollectionCards(collections) {
         <div class="card shadow-sm" style="background-color: ${col.card_color};">
           <a href="./colecciones/?col=${col.slug}"><img src="./colecciones/${col.slug}/${col.cover}" class="card-img-top card-img-cover" alt="${col.title}" loading="lazy" decoding="async"></a>
           <div class="card-body d-flex justify-content-between align-items-center">
-            <span class="fw-bold">${col.title}</span>
+            <h5 class="card-title">${col.title}</h5>
             <a href="./colecciones/?col=${col.slug}" class="btn btn-primary">Ver</a>
           </div>
         </div>

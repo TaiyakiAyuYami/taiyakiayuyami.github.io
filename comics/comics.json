@@ -32,7 +32,7 @@
         },
         {
           "id": "004",
-          "title": "Sandwich de bolita por favor",
+          "title": "Sándwich de bolita por favor",
           "format": "webp",
           "pages": 7,
           "card_color": "#aac5fa",
@@ -84,10 +84,10 @@
       "slug": "capitulos-cortos",
       "title": "Capítulos Cortos",
       "card_color": "#b4b5b4",
-      "cover": "cortos/0.webp",
+      "cover": "001/0.webp",
       "comics": [
         {
-          "id": "cortos",
+          "id": "001",
           "title": "Historias cortas",
           "format": "webp",
           "pages": 7,
@@ -95,7 +95,7 @@
           "date": "2023-10-16"
         },
         {
-          "id": "003",
+          "id": "002",
           "title": "Halloween 2023",
           "format": "webp",
           "pages": 4,
