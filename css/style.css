@@ -145,6 +145,12 @@ h2 {
   color: var(--color-title-dark);
 }
 
+/* Comic cards */
+.card-img-cover {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 /* Comic navigation arrows */
 .nav-arrow {
   width: 60px;

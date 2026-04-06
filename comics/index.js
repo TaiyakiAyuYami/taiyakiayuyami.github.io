@@ -45,7 +45,7 @@ function createCard(code, data) {
   let html = `
     <div class="col d-flex align-items-stretch" >
       <div class="card shadow-sm" style="background-color: ${data.card_color};">
-        <a href="./capitulo/?id=${code}"><img src="./capitulo/${code}/0.${data.format}" class="card-img-top" alt="${data.title}" loading="lazy" decoding="async"></a>
+        <a href="./capitulo/?id=${code}"><img src="./capitulo/${code}/0.${data.format}" class="card-img-top card-img-cover" alt="${data.title}" loading="lazy" decoding="async"></a>
         <div class="card-body">
           <a href="./capitulo/?id=${code}" class="btn btn-primary float-end">Leer</a>
         </div>
