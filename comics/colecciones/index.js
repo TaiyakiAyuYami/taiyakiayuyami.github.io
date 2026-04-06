@@ -32,10 +32,12 @@ function listingMode(collection) {
       <div class="col d-flex align-items-stretch">
         <div class="card shadow-sm" style="background-color: ${comic.card_color};">
           <a href="?col=${collection.slug}&id=${comic.id}"><img src="./${collection.slug}/${comic.id}/0.${comic.format}" class="card-img-top card-img-cover" alt="${comic.title}" loading="lazy" decoding="async"></a>
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">${comic.title}</h5>
-            <p class"card-text">Cómic no. ${comic.id}</p>
-            <a href="?col=${collection.slug}&id=${comic.id}" class="btn btn-primary float-end">Leer</a>
+          <div class="card-body d-flex justify-content-between">
+            <div class="d-flex flex-column">
+              <h5 class="card-title">${comic.title}</h5>
+              <p class="card-text text-body-tertiary">Cómic no. ${comic.id}</p>
+            </div>
+            <a href="?col=${collection.slug}&id=${comic.id}" class="btn btn-primary align-self-end">Leer</a>
           </div>
         </div>
       </div>
