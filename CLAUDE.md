@@ -40,14 +40,18 @@ Every page includes these scripts with `defer` and uses the custom elements in i
 
 ### Comics System
 
-Comics are data-driven via `comics/comics.json`. Each entry has a key (e.g., `"cortos"`, `"000"`, `"001"`), title, page count, image format, card color, and date.
+Comics are organized into **collections** (e.g., "Capítulos Cortos", "Tomo 1") via `comics/comics.json`. The JSON has a `collections` array; each collection has a `slug`, `title`, `card_color`, `cover` image path, and a `comics` array of individual comic entries.
 
-- `comics/index.html` + `comics/index.js` — lists all comics as cards from the JSON, with sort toggle
-- `comics/capitulo/index.html` + `comics/capitulo/index.js` — comic reader, loads pages by `?id=` query param
-- `comics/capitulo/arrows.js` — navigation between chapters (prev/next), exported as ES module
-- Comic images live in `comics/capitulo/{id}/` as numbered files (`0.webp`, `1.webp`, ...)
+- `comics/index.html` + `comics/index.js` — shows collection cards
+- `comics/colecciones/index.html` + `comics/colecciones/index.js` — dual-purpose page:
+  - **Listing mode** (`?col={slug}`) — shows comics within a collection with sort toggle
+  - **Reader mode** (`?col={slug}&id={comicId}`) — comic reader with page images and prev/next arrows
+- `comics/colecciones/arrows.js` — navigation between chapters within a collection (ES module)
+- Comic images live in `comics/colecciones/{collection-slug}/{comic-id}/` as numbered files (`0.webp`, `1.webp`, ...)
 
-To add a new comic: add an entry to `comics/comics.json` and create a folder under `comics/capitulo/` with numbered page images.
+To add a new comic: add an entry to the collection's `comics` array in `comics/comics.json` and create a folder under `comics/colecciones/{collection-slug}/` with numbered page images.
+
+To add a new collection: add a new object to the `collections` array in `comics/comics.json` and create a directory under `comics/colecciones/`.
 
 ### Sections
 
@@ -57,5 +61,5 @@ Each section is a directory with its own `index.html`: `sucursales/` (locations/
 
 - Indentation: 2 spaces (see `.editorconfig`)
 - Images: WebP format preferred
-- All assets under `assets/`; comic images under `comics/capitulo/`
+- All assets under `assets/`; comic images under `comics/colecciones/{collection-slug}/`
 - Character theme colors: Yami = yellow/pink, Ayu = mint green/cobalt blue, neutral = sky blue

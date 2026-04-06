@@ -1,79 +1,108 @@
 {
-  "cortos": {
-    "title": "Historias cortas",
-    "format": "webp",
-    "pages": 7,
-    "card_color": "#b4b5b4",
-    "date": "2023-10-16"
-  },
-  "000": {
-    "title": "Capítulo piloto",
-    "format": "webp",
-    "pages": 3,
-    "card_color": "#c7ddf5",
-    "date": "2023-10-16"
-  },
-  "001": {
-    "title": "Un día con Ayu",
-    "format": "webp",
-    "pages": 8,
-    "card_color": "#96d0e4",
-    "date": "2023-10-16"
-  },
-  "002": {
-    "title": "Un día con Yami",
-    "format": "webp",
-    "pages": 10,
-    "card_color": "#ebbae7",
-    "date": "2023-10-16"
-  },
-  "003": {
-    "title": "Halloween 2023",
-    "format": "webp",
-    "pages": 4,
-    "card_color": "#f5ae73",
-    "date": "2023-10-24"
-  },
-  "004": {
-    "title": "Sandwich de bolita por favor",
-    "format": "webp",
-    "pages": 7,
-    "card_color": "#aac5fa",
-    "date": "2023-11-15"
-  },
-  "005": {
-    "title": "Navidad 2023",
-    "format": "webp",
-    "pages": 19,
-    "card_color": "#e2657c",
-    "date": "2023-12-24"
-  },
-  "006": {
-    "title": "Aprendiendo a patinar",
-    "format": "webp",
-    "pages": 10,
-    "card_color": "#44d06a",
-    "date": "2024-06-11"
-  },
-  "007": {
-    "title": "Tai-Chan no está",
-    "format": "webp",
-    "pages": 11,
-    "card_color": "#6c6764",
-    "date": "2024-10-25"
-  },
-  "008": {
-    "title": "Tai-Chan no está 2",
-    "format": "webp",
-    "pages": 21,
-    "card_color": "#6c6764",
-    "date": "2025-01-20"
-  },
-  "009": {
-    "title": "Tai-Chan no está 3",
-    "format": "webp",
-    "pages": 13,
-    "card_color": "#6c6764",
-    "date": "2026-04-05"
-  }
+  "collections": [
+    {
+      "slug": "capitulos-cortos",
+      "title": "Capítulos Cortos",
+      "card_color": "#b4b5b4",
+      "cover": "cortos/0.webp",
+      "comics": [
+        {
+          "id": "cortos",
+          "title": "Historias cortas",
+          "format": "webp",
+          "pages": 7,
+          "card_color": "#b4b5b4",
+          "date": "2023-10-16"
+        },
+        {
+          "id": "003",
+          "title": "Halloween 2023",
+          "format": "webp",
+          "pages": 4,
+          "card_color": "#f5ae73",
+          "date": "2023-10-24"
+        }
+      ]
+    },
+    {
+      "slug": "tomo-1",
+      "title": "Tomo 1",
+      "card_color": "#c7ddf5",
+      "cover": "000/1.webp",
+      "comics": [
+        {
+          "id": "000",
+          "title": "Capítulo piloto",
+          "format": "webp",
+          "pages": 3,
+          "card_color": "#c7ddf5",
+          "date": "2023-10-16"
+        },
+        {
+          "id": "001",
+          "title": "Un día con Ayu",
+          "format": "webp",
+          "pages": 8,
+          "card_color": "#96d0e4",
+          "date": "2023-10-16"
+        },
+        {
+          "id": "002",
+          "title": "Un día con Yami",
+          "format": "webp",
+          "pages": 10,
+          "card_color": "#ebbae7",
+          "date": "2023-10-16"
+        },
+        {
+          "id": "004",
+          "title": "Sandwich de bolita por favor",
+          "format": "webp",
+          "pages": 7,
+          "card_color": "#aac5fa",
+          "date": "2023-11-15"
+        },
+        {
+          "id": "005",
+          "title": "Navidad 2023",
+          "format": "webp",
+          "pages": 19,
+          "card_color": "#e2657c",
+          "date": "2023-12-24"
+        },
+        {
+          "id": "006",
+          "title": "Aprendiendo a patinar",
+          "format": "webp",
+          "pages": 10,
+          "card_color": "#44d06a",
+          "date": "2024-06-11"
+        },
+        {
+          "id": "007",
+          "title": "Tai-Chan no está",
+          "format": "webp",
+          "pages": 11,
+          "card_color": "#6c6764",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "008",
+          "title": "Tai-Chan no está 2",
+          "format": "webp",
+          "pages": 21,
+          "card_color": "#6c6764",
+          "date": "2025-01-20"
+        },
+        {
+          "id": "009",
+          "title": "Tai-Chan no está 3",
+          "format": "webp",
+          "pages": 13,
+          "card_color": "#6c6764",
+          "date": "2026-04-05"
+        }
+      ]
+    }
+  ]
 }

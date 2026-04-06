@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" as="image" href="/assets/logo.webp" fetchpriority="high">
+  <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
+  <title>Historietas — Taiyaki Ayu-Yami</title>
+
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/">
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/" crossorigin>
+  <link href="/assets/fonts/OpenSans-Regular.woff2" type="font/woff2"
+    rel="preload" as="font" crossorigin>
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/header.js" defer></script>
+  <script src="/js/banner.js" defer></script>
+  <script src="/js/banner-full.js" defer></script>
+  <script src="/js/footer.js" defer></script>
+
+  <script type="module" src="index.js" defer></script>
+</head>
+<body>
+
+<header-component></header-component>
+
+<!-- Listing mode: banner with collection title -->
+<div id="listing-banner">
+  <banner-component
+    data-bg-color="#dd8df0"
+    data-flip-char=""
+    data-text1="Ayu-Yami Adventures"
+    data-text2="">
+  </banner-component>
+</div>
+
+<!-- Reader mode: logo-only banner -->
+<div id="reader-banner" style="display: none;">
+  <banner-full-component data-bg-color=""></banner-full-component>
+</div>
+
+<main>
+  <!-- Listing mode -->
+  <div id="listing-section" class="container py-5 min-height-screen">
+    <div class="d-flex justify-content-between align-items-center">
+      <a href="/comics/" class="btn btn-outline-secondary">&larr; Colecciones</a>
+      <div class="d-flex align-items-center">
+        <span class="text-body-tertiary">Cambiar orden:&nbsp;&nbsp;</span>
+        <button id="reordenarBtn" class="btn btn-info text-right" aria-label="Cambiar orden de historietas"><span id="textoBtn">Más antiguos primero</span>&nbsp;<svg class="bi" width="24" height="24"><use href="#arrow-down"/></svg></button>
+      </div>
+    </div>
+
+    <div id="cards-container" class="pt-3 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    </div>
+  </div>
+
+  <!-- Reader mode -->
+  <div id="reader-section" style="display: none;">
+    <div id="comic-container" class="container-lg center-screen"></div>
+    <div id="nav-buttons"></div>
+  </div>
+</main>
+
+<footer-component></footer-component>
+
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
