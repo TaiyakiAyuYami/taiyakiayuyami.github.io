@@ -40,6 +40,7 @@ function generateCardsHTML(comicList) {
   }
   return cardsHTML;
 }
+
 function createCard(code, data) {
   let html = `
     <div class="col d-flex align-items-stretch" >
@@ -53,6 +54,7 @@ function createCard(code, data) {
   `
   return html;
 }
+
 function appendCardsToContainer(cardsHTML) {
   let container = document.getElementById('cards-container');
   container.innerHTML = cardsHTML;
