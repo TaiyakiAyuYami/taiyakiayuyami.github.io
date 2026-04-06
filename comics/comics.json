@@ -4,18 +4,18 @@
       "slug": "tomo-1",
       "title": "Tomo 1",
       "card_color": "#c7ddf5",
-      "cover": "000/1.webp",
+      "cover": "001/1.webp",
       "comics": [
         {
-          "id": "000",
-          "title": "Capítulo piloto",
+          "id": "001",
+          "title": "¿Recuerdas cuando nos conocimos?",
           "format": "webp",
           "pages": 3,
           "card_color": "#c7ddf5",
           "date": "2023-10-16"
         },
         {
-          "id": "001",
+          "id": "002",
           "title": "Un día con Ayu",
           "format": "webp",
           "pages": 8,
@@ -23,7 +23,7 @@
           "date": "2023-10-16"
         },
         {
-          "id": "002",
+          "id": "003",
           "title": "Un día con Yami",
           "format": "webp",
           "pages": 10,
