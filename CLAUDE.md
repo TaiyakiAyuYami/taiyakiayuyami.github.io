@@ -53,9 +53,19 @@ To add a new comic: add an entry to the collection's `comics` array in `comics/c
 
 To add a new collection: add a new object to the `collections` array in `comics/comics.json` and create a directory under `comics/colecciones/`.
 
+### Stickers System
+
+Stickers are organized into **collections** via `stickers/stickers.json`. Structure mirrors comics: `collections` array, each with `slug`, `title`, `color`, and a `stickers` array. Each sticker entry has `id`, `personaje` (array of character names), `format`, and `year`. Image files live at `stickers/colecciones/{collection-slug}/{id}.{format}` (e.g. `stickers/colecciones/comun/000.webp`).
+
+- `stickers/index.html` + `stickers/index.js` — single page with two pill-filter rows (collection + character) and an Instagram-style square grid. Filtering is client-side; no per-collection pages.
+
+To add a new sticker: add an entry to the appropriate collection's `stickers` array in `stickers/stickers.json` and drop the image into the matching folder.
+
+To add a new collection: add a new object to the `collections` array in `stickers/stickers.json` and create a directory under `stickers/colecciones/`.
+
 ### Sections
 
-Each section is a directory with its own `index.html`: `sucursales/` (locations/maps), `conocenos/` (about), `menu/` (menu), `comics/` (comics).
+Each section is a directory with its own `index.html`: `sucursales/` (locations/maps), `conocenos/` (about), `menu/` (menu), `comics/` (comics), `stickers/` (stickers).
 
 ## Conventions
 

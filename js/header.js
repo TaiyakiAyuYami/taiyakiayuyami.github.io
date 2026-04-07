@@ -78,6 +78,9 @@ class Header extends HTMLElement {
                   <a class="nav-link" href="/comics">Historietas</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="/stickers">Stickers</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="/menu">Menú</a>
                 </li>
                 <li hidden class="nav-item">

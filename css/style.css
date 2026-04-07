@@ -191,3 +191,30 @@ h2 {
     height: 189px;
   }
 }
+
+/* Stickers grid */
+.stickers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+.stickers-grid .sticker-item {
+  display: block;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #f5f5f5;
+}
+.stickers-grid .sticker-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+.stickers-grid .sticker-item:hover img {
+  transform: scale(1.05);
+}
+.filter-pill.active {
+  outline: 2px solid #212529;
+  outline-offset: 1px;
+}

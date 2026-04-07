@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" as="image" href="/assets/logo.webp" fetchpriority="high">
+  <link rel="icon" type="image/x-icon" href="/assets/icon-ayu-yami.webp">
+  <title>Stickers — Taiyaki Ayu-Yami</title>
+
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/">
+  <link rel="preconnect" href="https://fonts.cdnfonts.com/" crossorigin>
+  <link href="/assets/fonts/OpenSans-Regular.woff2" type="font/woff2"
+    rel="preload" as="font" crossorigin>
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/header.js" defer></script>
+  <script src="/js/banner.js" defer></script>
+  <script src="/js/footer.js" defer></script>
+
+  <script type="module" src="index.js" defer></script>
+</head>
+<body>
+
+<header-component></header-component>
+<banner-component
+  data-bg-color="#ff9ec7"
+  data-flip-char=""
+  data-text1="Stickers"
+  data-text2="">
+</banner-component>
+
+<main>
+  <div class="container py-5 min-height-screen">
+
+    <div class="mb-3">
+      <p class="text-body-tertiary mb-2 mt-0">Colección</p>
+      <div id="filter-collection" class="d-flex flex-wrap gap-2"></div>
+    </div>
+
+    <div class="mb-4">
+      <p class="text-body-tertiary mb-2 mt-0">Personaje</p>
+      <div id="filter-personaje" class="d-flex flex-wrap gap-2"></div>
+    </div>
+
+    <div id="stickers-grid" class="stickers-grid">
+      <!-- Insertar stickers por script desde archivo JSON -->
+    </div>
+
+  </div>
+</main>
+
+<footer-component></footer-component>
+
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
