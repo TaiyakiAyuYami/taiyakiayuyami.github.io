@@ -91,6 +91,7 @@ function buildPersonajeFilter() {
 
 function onPillClick(e) {
   const btn = e.currentTarget;
+  btn.blur();
   const key = btn.dataset.key;
   const value = btn.dataset.value;
   const set = state[key];
@@ -128,7 +129,7 @@ function onPillClick(e) {
 function render() {
   const filtered = allStickers.filter(s => {
     const collectionMatch = state.collection.size === 0 || state.collection.has(s.collection.slug);
-    const personajeMatch = state.personaje.size === 0 || s.personaje.some(p => state.personaje.has(p));
+    const personajeMatch = state.personaje.size === 0 || [...state.personaje].every(p => s.personaje.includes(p));
     return collectionMatch && personajeMatch;
   });
 
