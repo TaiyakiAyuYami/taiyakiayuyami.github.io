@@ -35,7 +35,7 @@ function listingMode(collection) {
           <div class="card-body d-flex justify-content-between">
             <div class="d-flex flex-column">
               <h5 class="card-title">${comic.title}</h5>
-              <p class="card-text text-body-tertiary">Cómic no. ${comic.id}</p>
+              <p class="card-text text-body-tertiary">Cómic no. ${comic.id.replace(/^0+(\d)/gm, '$1')}</p>
             </div>
             <a href="?col=${collection.slug}&id=${comic.id}" class="btn btn-primary align-self-end">Leer</a>
           </div>
