@@ -214,7 +214,7 @@ h2 {
 .stickers-grid .sticker-item:hover img {
   transform: scale(1.05);
 }
-.filter-pill.active {
+#filter-personaje .filter-pill.active {
   outline: 2px solid #212529;
   outline-offset: 1px;
 }

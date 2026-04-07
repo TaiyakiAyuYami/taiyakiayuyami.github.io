@@ -1,6 +1,7 @@
+// Empty Set means "all" — no filter applied for that category
 const state = {
-  collection: 'all',
-  personaje: 'all',
+  collection: new Set(),
+  personaje: new Set(),
 };
 
 let allStickers = [];
@@ -35,6 +36,7 @@ fetch('./stickers.json')
 
     buildCollectionFilter();
     buildPersonajeFilter();
+    updateCollectionPillStyles();
     render();
   })
   .catch(err => {
@@ -44,13 +46,33 @@ fetch('./stickers.json')
 
 function buildCollectionFilter() {
   const container = document.getElementById('filter-collection');
-  let html = `<button type="button" class="btn btn-sm btn-outline-secondary filter-pill active" data-key="collection" data-value="all">Todas</button>`;
+  let html = `<button type="button" class="btn btn-sm btn-secondary filter-pill active" data-key="collection" data-value="all">Todas</button>`;
   for (const col of collections) {
-    html += `<button type="button" class="btn btn-sm filter-pill" data-key="collection" data-value="${col.slug}" style="background-color: ${col.color}; border-color: ${col.color};">${col.title}</button>`;
+    html += `<button type="button" class="btn btn-sm filter-pill collection-pill" data-key="collection" data-value="${col.slug}" data-color="${col.color}" style="border-color: ${col.color};">${col.title}</button>`;
   }
   container.innerHTML = html;
   container.querySelectorAll('.filter-pill').forEach(btn => {
     btn.addEventListener('click', onPillClick);
+  });
+}
+
+function updateCollectionPillStyles() {
+  const todas = document.querySelector('#filter-collection .filter-pill[data-value="all"]');
+  if (todas.classList.contains('active')) {
+    todas.classList.remove('btn-outline-secondary');
+    todas.classList.add('btn-secondary');
+  } else {
+    todas.classList.remove('btn-secondary');
+    todas.classList.add('btn-outline-secondary');
+  }
+
+  document.querySelectorAll('#filter-collection .collection-pill').forEach(btn => {
+    const color = btn.dataset.color;
+    if (btn.classList.contains('active')) {
+      btn.style.backgroundColor = color;
+    } else {
+      btn.style.backgroundColor = '';
+    }
   });
 }
 
@@ -71,20 +93,42 @@ function onPillClick(e) {
   const btn = e.currentTarget;
   const key = btn.dataset.key;
   const value = btn.dataset.value;
-  state[key] = value;
-
-  // Update active state for this filter row
+  const set = state[key];
   const rowId = key === 'collection' ? 'filter-collection' : 'filter-personaje';
-  document.querySelectorAll(`#${rowId} .filter-pill`).forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+
+  if (value === 'all') {
+    // Clicking "Todas/Todos" clears all selections in this row
+    set.clear();
+  } else {
+    // Toggle this value in the set
+    if (set.has(value)) {
+      set.delete(value);
+    } else {
+      set.add(value);
+    }
+  }
+
+  // Sync active classes from state
+  document.querySelectorAll(`#${rowId} .filter-pill`).forEach(b => {
+    const v = b.dataset.value;
+    if (v === 'all') {
+      b.classList.toggle('active', set.size === 0);
+    } else {
+      b.classList.toggle('active', set.has(v));
+    }
+  });
+
+  if (key === 'collection') {
+    updateCollectionPillStyles();
+  }
 
   render();
 }
 
 function render() {
   const filtered = allStickers.filter(s => {
-    const collectionMatch = state.collection === 'all' || s.collection.slug === state.collection;
-    const personajeMatch = state.personaje === 'all' || s.personaje.includes(state.personaje);
+    const collectionMatch = state.collection.size === 0 || state.collection.has(s.collection.slug);
+    const personajeMatch = state.personaje.size === 0 || s.personaje.some(p => state.personaje.has(p));
     return collectionMatch && personajeMatch;
   });
 
