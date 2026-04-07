@@ -23,6 +23,9 @@ fetch('./stickers.json')
       }
     }
 
+    // Sort globally by numeric id
+    allStickers.sort((a, b) => parseInt(a.id, 10) - parseInt(b.id, 10));
+
     // Extract unique characters preserving first-seen order
     const seen = new Set();
     for (const s of allStickers) {
@@ -144,7 +147,10 @@ function render() {
     const alt = `${s.collection.title} — ${s.personaje.join(', ')}`;
     html += `
       <a class="sticker-item" href="${src}" target="_blank" rel="noopener" title="${alt}">
-        <img src="${src}" alt="${alt}" loading="lazy" decoding="async">
+        <div class="sticker-thumb">
+          <img src="${src}" alt="${alt}" loading="lazy" decoding="async">
+        </div>
+        <span class="sticker-id">#${s.id}</span>
       </a>
     `;
   }
