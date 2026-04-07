@@ -4,10 +4,10 @@
       "slug": "tomo-1",
       "title": "Tomo 1",
       "card_color": "#c7ddf5",
-      "cover": "001/1.webp",
+      "cover": "000/1.webp",
       "comics": [
         {
-          "id": "001",
+          "id": "000",
           "title": "¿Recuerdas cuando nos conocimos?",
           "format": "webp",
           "pages": 3,
@@ -15,7 +15,7 @@
           "date": "2023-10-16"
         },
         {
-          "id": "002",
+          "id": "001",
           "title": "Un día con Ayu",
           "format": "webp",
           "pages": 8,
@@ -23,7 +23,7 @@
           "date": "2023-10-16"
         },
         {
-          "id": "003",
+          "id": "002",
           "title": "Un día con Yami",
           "format": "webp",
           "pages": 10,
@@ -31,7 +31,7 @@
           "date": "2023-10-16"
         },
         {
-          "id": "004",
+          "id": "003",
           "title": "Sándwich de bolita por favor",
           "format": "webp",
           "pages": 7,
@@ -39,7 +39,7 @@
           "date": "2023-11-15"
         },
         {
-          "id": "005",
+          "id": "004",
           "title": "Navidad 2023",
           "format": "webp",
           "pages": 19,
@@ -47,7 +47,7 @@
           "date": "2023-12-24"
         },
         {
-          "id": "006",
+          "id": "005",
           "title": "Aprendiendo a patinar",
           "format": "webp",
           "pages": 10,
@@ -55,7 +55,7 @@
           "date": "2024-06-11"
         },
         {
-          "id": "007",
+          "id": "006",
           "title": "Tai-Chan no está",
           "format": "webp",
           "pages": 11,
@@ -63,7 +63,7 @@
           "date": "2024-10-25"
         },
         {
-          "id": "008",
+          "id": "006.1",
           "title": "Tai-Chan no está 2",
           "format": "webp",
           "pages": 21,
@@ -71,7 +71,7 @@
           "date": "2025-01-20"
         },
         {
-          "id": "009",
+          "id": "007",
           "title": "Tai-Chan no está 3",
           "format": "webp",
           "pages": 13,
