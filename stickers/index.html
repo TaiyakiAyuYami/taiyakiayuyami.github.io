@@ -18,6 +18,7 @@
   <script src="/js/header.js" defer></script>
   <script src="/js/banner.js" defer></script>
   <script src="/js/footer.js" defer></script>
+  <script src="/js/scroll-up.js" defer></script>
 
   <script type="module" src="index.js" defer></script>
 </head>
@@ -32,7 +33,7 @@
 </banner-component>
 
 <main>
-  <div class="container py-5 min-height-screen">
+  <div class="container pt-3 min-height-screen">
 
     <div class="mb-3">
       <p class="text-body-tertiary mb-2 mt-0">Colección</p>
@@ -46,6 +47,10 @@
 
     <div id="stickers-grid" class="stickers-grid">
       <!-- Insertar stickers por script desde archivo JSON -->
+    </div>
+
+    <div class="d-flex justify-content-center pt-4">
+      <button id="upButton" onclick="scrollUp()" aria-label="Subir al inicio"><img src="/assets/up.webp" alt="Subir"></button>
     </div>
 
   </div>
