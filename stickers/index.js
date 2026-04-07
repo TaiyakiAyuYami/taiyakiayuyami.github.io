@@ -40,6 +40,7 @@ fetch('./stickers.json')
     buildCollectionFilter();
     buildPersonajeFilter();
     updateCollectionPillStyles();
+    setupStickerModal();
     render();
   })
   .catch(err => {
@@ -127,6 +128,21 @@ function onPillClick(e) {
   }
 
   render();
+}
+
+function setupStickerModal() {
+  const modalEl = document.getElementById('stickerModal');
+  const modalImg = document.getElementById('stickerModalImg');
+  const bsModal = new bootstrap.Modal(modalEl);
+
+  document.getElementById('stickers-grid').addEventListener('click', e => {
+    const link = e.target.closest('.sticker-item');
+    if (!link) return;
+    e.preventDefault();
+    modalImg.src = link.getAttribute('href');
+    modalImg.alt = link.getAttribute('title') || '';
+    bsModal.show();
+  });
 }
 
 function render() {
