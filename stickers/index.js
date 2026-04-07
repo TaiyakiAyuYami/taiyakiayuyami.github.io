@@ -104,17 +104,10 @@ function onPillClick(e) {
   if (value === 'all') {
     // Clicking "Todas/Todos" clears all selections in this row
     set.clear();
-  } else if (key === 'collection') {
-    // Single-select for collections: only one active at a time
+  } else {
+    // Single-select: only one active at a time
     set.clear();
     set.add(value);
-  } else {
-    // Multi-select toggle for personajes
-    if (set.has(value)) {
-      set.delete(value);
-    } else {
-      set.add(value);
-    }
   }
 
   // Sync active classes from state
