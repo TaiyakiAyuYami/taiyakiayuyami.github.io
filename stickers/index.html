@@ -18,6 +18,7 @@
   <script src="/js/header.js" defer></script>
   <script src="/js/banner.js" defer></script>
   <script src="/js/footer.js" defer></script>
+  <script src="/js/scroll-up.js" defer></script>
 
   <script type="module" src="index.js" defer></script>
 </head>
@@ -48,8 +49,8 @@
       <!-- Insertar stickers por script desde archivo JSON -->
     </div>
 
-    <div id="scroll-indicator" class="d-flex justify-content-center pt-5 d-none">
-      <button id="upButton" aria-label="Subir al inicio"><img src="/assets/up.webp" alt="Subir"></button>
+    <div class="d-flex justify-content-center pt-4" style="visibility: hidden;">
+      <button id="upButton" onclick="scrollUp()" aria-label="Subir al inicio"><img src="/assets/up.webp" alt="Subir"></button>
     </div>
 
   </div>

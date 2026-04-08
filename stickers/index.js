@@ -1,5 +1,3 @@
-import { checkScrollability } from '../js/scroll-up.js'
-
 // Empty Set means "all" — no filter applied for that category
 const state = {
   collection: new Set(),
@@ -170,5 +168,4 @@ function render() {
     `;
   }
   document.getElementById('stickers-grid').innerHTML = html;
-  checkScrollability();
 }
