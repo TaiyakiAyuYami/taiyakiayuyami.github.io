@@ -1,4 +1,4 @@
-export function scrollUp() {
+function scrollUp() {
   window.scrollTo({
     top: 0,
     left: 0,
@@ -21,3 +21,6 @@ export function checkScrollability() {
 
 document.addEventListener('DOMContentLoaded', checkScrollability);
 window.addEventListener('resize', checkScrollability);
+
+const scrollUpBtn = document.getElementById('upButton')
+scrollUpBtn.addEventListener('click', scrollUp)

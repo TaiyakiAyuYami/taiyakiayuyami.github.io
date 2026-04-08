@@ -1,8 +1,4 @@
-import { scrollUp, checkScrollability } from '../js/scroll-up.js'
-
-// Add scrollUp function to element
-const scrollUpBtn = document.getElementById('upButton')
-scrollUpBtn.addEventListener('click', scrollUp)
+import { checkScrollability } from '../js/scroll-up.js'
 
 // Empty Set means "all" — no filter applied for that category
 const state = {
