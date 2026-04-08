@@ -71,16 +71,16 @@
         { "id": "074", "personaje": ["ayu"], "format": "webp", "year": "2025" },
         { "id": "075", "personaje": ["yami"], "format": "webp", "year": "2025" },
         { "id": "076", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "078", "personaje": ["yun"], "format": "webp", "year": "2025" },
-        { "id": "079", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "096", "personaje": ["ayu", "aomi"], "format": "webp", "year": "2025" },
-        { "id": "097", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "098", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "077", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "078", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "095", "personaje": ["ayu", "aomi"], "format": "webp", "year": "2025" },
+        { "id": "096", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "097", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "098", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
         { "id": "099", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
         { "id": "100", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "101", "personaje": ["tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "102", "personaje": ["ayu"], "format": "webp", "year": "2025" },
-        { "id": "103", "personaje": ["yami"], "format": "webp", "year": "2025" }
+        { "id": "101", "personaje": ["ayu"], "format": "webp", "year": "2025" },
+        { "id": "102", "personaje": ["yami"], "format": "webp", "year": "2025" }
       ]
     },
     {
@@ -103,15 +103,15 @@
         { "id": "058", "personaje": ["yami"], "format": "webp", "year": "2025" },
         { "id": "059", "personaje": ["ayu"], "format": "webp", "year": "2025" },
         { "id": "060", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "084", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "085", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "086", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "087", "personaje": ["yun"], "format": "webp", "year": "2025" },
-        { "id": "108", "personaje": ["ayu"], "format": "webp", "year": "2025" },
-        { "id": "109", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "110", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "111", "personaje": ["yun"], "format": "webp", "year": "2025" },
-        { "id": "112", "personaje": ["tai-chan"], "format": "webp", "year": "2025" }
+        { "id": "083", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "084", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "085", "personaje": ["aomi"], "format": "webp", "year": "2025" },
+        { "id": "086", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "107", "personaje": ["ayu"], "format": "webp", "year": "2025" },
+        { "id": "108", "personaje": ["aomi"], "format": "webp", "year": "2025" },
+        { "id": "109", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "110", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "111", "personaje": ["tai-chan"], "format": "webp", "year": "2025" }
       ]
     },
     {
@@ -123,10 +123,10 @@
         { "id": "062", "personaje": ["yami"], "format": "webp", "year": "2025" },
         { "id": "063", "personaje": ["ayu"], "format": "webp", "year": "2025" },
         { "id": "064", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "088", "personaje": ["ayu"], "format": "webp", "year": "2025" },
-        { "id": "089", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "090", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "091", "personaje": ["yun"], "format": "webp", "year": "2025" }
+        { "id": "087", "personaje": ["ayu"], "format": "webp", "year": "2025" },
+        { "id": "088", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "089", "personaje": ["aomi"], "format": "webp", "year": "2025" },
+        { "id": "090", "personaje": ["yun"], "format": "webp", "year": "2025" }
       ]
     },
     {
@@ -134,10 +134,10 @@
       "title": "Mes Patrio",
       "color": "#7ed957",
       "stickers": [
-        { "id": "092", "personaje": ["ayu"], "format": "webp", "year": "2025" },
-        { "id": "093", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "094", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "095", "personaje": ["yun"], "format": "webp", "year": "2025" }
+        { "id": "091", "personaje": ["ayu"], "format": "webp", "year": "2025" },
+        { "id": "092", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "093", "personaje": ["aomi"], "format": "webp", "year": "2025" },
+        { "id": "094", "personaje": ["yun"], "format": "webp", "year": "2025" }
       ]
     },
     {
@@ -151,14 +151,14 @@
         { "id": "049", "personaje": ["yami"], "format": "webp", "year": "2025" },
         { "id": "050", "personaje": ["ayu", "yami"], "format": "webp", "year": "2025" },
         { "id": "051", "personaje": ["ayu", "yami", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "080", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "081", "personaje": ["yami"], "format": "webp", "year": "2025" },
-        { "id": "082", "personaje": ["aomi"], "format": "webp", "year": "2025" },
-        { "id": "083", "personaje": ["yun"], "format": "webp", "year": "2025" },
-        { "id": "104", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "105", "personaje": ["yami", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "106", "personaje": ["aomi", "tai-chan"], "format": "webp", "year": "2025" },
-        { "id": "107", "personaje": ["yun", "tai-chan"], "format": "webp", "year": "2025" }
+        { "id": "079", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "080", "personaje": ["yami"], "format": "webp", "year": "2025" },
+        { "id": "081", "personaje": ["aomi"], "format": "webp", "year": "2025" },
+        { "id": "082", "personaje": ["yun"], "format": "webp", "year": "2025" },
+        { "id": "103", "personaje": ["ayu", "tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "104", "personaje": ["yami", "tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "105", "personaje": ["aomi", "tai-chan"], "format": "webp", "year": "2025" },
+        { "id": "106", "personaje": ["yun", "tai-chan"], "format": "webp", "year": "2025" }
       ]
     }
   ]
