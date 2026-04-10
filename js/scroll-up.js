@@ -6,38 +6,21 @@ function scrollUp() {
   });
 }
 
-(function () {
-  function updateUpButtonVisibility() {
-    const btn = document.getElementById("upButton");
-    if (!btn) return;
-    const wrapper = btn.parentElement;
-    const target = wrapper || btn;
-    // The button is always in layout (visibility: hidden by default) so we can
-    // measure its position without causing a reflow flicker.
-    const rect = btn.getBoundingClientRect();
-    const buttonBottomFromDocTop = rect.bottom + window.scrollY;
-    // If the button is already fully visible when scrolled to the top, no
-    // scrolling is needed to reach it, so keep it hidden.
-    const needsScroll = buttonBottomFromDocTop > window.innerHeight;
-    target.style.visibility = needsScroll ? "visible" : "hidden";
-  }
+export function checkScrollability() {
+  const indicator = document.getElementById('scroll-indicator');
 
-  function init() {
-    updateUpButtonVisibility();
-    window.addEventListener("resize", updateUpButtonVisibility);
-    if (typeof ResizeObserver !== "undefined") {
-      const ro = new ResizeObserver(updateUpButtonVisibility);
-      ro.observe(document.body);
-    }
-    new MutationObserver(updateUpButtonVisibility).observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
-  }
+  const totalHeight = document.documentElement.scrollHeight;
+  const viewportHeight = document.documentElement.clientHeight;
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
+  if (totalHeight > viewportHeight) {
+    indicator.classList.remove('d-none')
   } else {
-    init();
+    indicator.classList.add('d-none')
   }
-})();
+}
+
+document.addEventListener('DOMContentLoaded', checkScrollability);
+window.addEventListener('resize', checkScrollability);
+
+const scrollUpBtn = document.getElementById('upButton')
+scrollUpBtn.addEventListener('click', scrollUp)
