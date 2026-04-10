@@ -12,7 +12,7 @@ export function checkScrollability() {
   const totalHeight = document.documentElement.scrollHeight;
   const viewportHeight = document.documentElement.clientHeight;
 
-  if (totalHeight > viewportHeight) {
+  if (totalHeight > viewportHeight + 950) {
     indicator.classList.remove('d-none')
   } else {
     indicator.classList.add('d-none')
