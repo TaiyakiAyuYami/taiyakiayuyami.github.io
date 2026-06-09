@@ -83,7 +83,7 @@ class Footer extends HTMLElement {
           </div>
 
           <div class="icon">
-            <a class="text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/aF3i35kVTvQ3X9JK7"><svg class="bi" width="30" height="30"><use xlink:href="#bi-location"/></svg>
+            <a class="text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/DxCPtGzLFjf3hqpQ7"><svg class="bi" width="30" height="30"><use xlink:href="#bi-location"/></svg>
             <span class="text-body-secondary fw-bold fs-6">¡Visítanos!</span></a>
           </div>
 
